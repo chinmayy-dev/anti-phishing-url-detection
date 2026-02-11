@@ -1,0 +1,92 @@
+URL: https://secure-icici-bank.verify-now.top
+
+Why it looks legit:
+- Uses icici bank name
+- Uses words like "secure"
+
+Suspicious:
+- Actual domain is verify-now.top
+- Untrusted TLD (.top)
+- Uses phishing keywords -> "secure"
+
+Possible features:
+- Brand name position
+- TLD reputation
+- Urgency pattern recognition (verify-now)
+
+
+
+
+URL: https://login-google.accounts.security-check.xyz
+
+Why it looks legit:
+- Uses google name
+- Uses words like "security-check"
+
+Suspicious:
+- Actual domain is security-check.xyz
+- Not very popular domain (.xyz)
+- Uses phishing keywords -> "login", "security-check"
+
+Possible features:
+- Number of dots
+- Brand name position
+- Very long url
+- Suspicious keywords
+
+
+
+
+URL: https://apple-id.verify.billing-support.top
+
+Why it looks legit:
+- Uses apple name
+- Uses words like "verify" and "support"
+
+Suspicious:
+- Too many subdomains
+- Actual domain is billing-support.top
+- Untrusted TLD (.top)
+- Uses phishing keywords -> "verify"
+
+Possible features:
+- Number of dots
+- Brand name position
+- Very long URL
+
+
+
+
+URL: https://accounts-facebook.security-alert.ru
+
+Why it looks legit:
+- Uses facebook name
+- Looks like an account page of facebook
+
+Suspicious:
+- Actual domain is security-alert.ru
+- Untrusted TLD (.ru)
+- Uses phishing keywords -> "alert"
+
+Possible features:
+- Brand name position
+- Looks urgent/Threatening (security-alert)
+
+
+
+
+URL: https://netflix-login-helpdesk.xyz
+
+Why it looks legit:
+- Contains the brand name "Netflix"
+- Uses the word "login" -> looks like an account page
+
+Suspicious:
+- Netflix is not the main domain.
+- Uses an uncommon TLD (.xyz) while netflix uses .com
+- Combines multiple phishing keywords -> "login", "helpdesk"
+
+Possible features:
+- Brand name position
+- Keyword detection
+- Uncommon TLD

@@ -1,0 +1,43 @@
+Dataset Schema: Phishing URL Detection
+
+1. url_length
+   Description: Total number of characters in the URL.
+   Type: Integer
+   Reason: Phishing URLs are often longer to hide malicious structure.
+
+2. dot_count
+   Description: Number of '.' characters in the URL.
+   Type: Integer
+   Reason: Phishing URLs often use many subdomains.
+
+3. hyphen_count
+   Description: Number of '-' characters in the URL.
+   Type: Integer
+   Reason: Hyphens are commonly used to imitate brand names.
+
+4. has_https
+   Description: Whether the URL uses HTTPS scheme.
+   Type: Boolean (1 = yes, 0 = no)
+   Reason: HTTPS alone does not guarantee legitimacy but is still a useful feature.
+
+5. has_ip
+   Description: Whether the URL contains an IP address instead of a domain.
+   Type: Boolean (1 = yes, 0 = no)
+   Reason: Legitimate websites rarely use raw IP addresses.
+
+6. suspicious_keyword_count
+   Description: Count of suspicious keywords like login, verify, secure, account.
+   Type: Integer
+   Reason: Phishing URLs often contain multiple urgency-related keywords.
+
+7. entropy
+   Description: Measure of randomness in the URL.
+   Type: Float
+   Reason: Phishing URLs often look random to evade detection.
+
+8. label
+   Description: Classification label for the URL.
+   Type: Integer
+   Values:
+     1 -> phishing
+     0 -> legitimate

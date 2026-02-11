@@ -1,0 +1,10 @@
+Phishing urls usually have:
+
+- Longer URL length
+- More than 2 dot count
+- 2 or more than 2 Suspicious keywords
+- Higher entropy
+- Number of hyphen is unusually larger
+- Has IP
+
+* if from the above given points, if 2 or more than 2 things 
