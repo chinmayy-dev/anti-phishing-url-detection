@@ -1,0 +1,31 @@
+1. Phishing URLs have higher average URL length (~50) as compare to Legitimate URLs(~19).
+2. Phishing URLs contain more hyphens on average (~0.752) as compared to Legitimate URLs (~0.005).
+3. Phishing URLs have a slightly higher average Entropy (~4.26) as compared to Legitimate URLs (~3.66).
+4. Phishing URLs have double the number of dots as compared to Legitimate URLs (multiple subdomains).
+5. has_ip is exteremely rare in legit URLs (0 in our dataset) but appears in phishing.
+6. suspicious_keyword_count is 0.157 for Phishing URLs while it is 0 for the Legitimate URLs.
+7. Dataset is balanced (X phishing, Y legit).
+
+
+Total rows: 380
+Feature count: 7 features + 1 label
+Dataset balanced: Yes
+Outliers: None extreme
+Strongest features: url_length, entropy
+Moderate features: dot_count, hyphen_count
+Weak features: has_https
+has_ip: currently unused (no IP-based URLs)
+
+
+--- DATASET LOCK (v1) ---
+
+Total rows: 400
+Feature count: 7 features + 1 label
+Balanced: Yes
+IP-based phishing URLs added: Yes
+Normalization applied: Yes (auto scheme handling)
+Outliers removed: None
+Strongest signals observed: url_length, entropy
+Moderate signals: dot_count, hyphen_count
+Weak signal: has_https
+Date locked: 15-02-2026

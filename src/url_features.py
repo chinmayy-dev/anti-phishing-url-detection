@@ -5,6 +5,9 @@ from collections import Counter
 
 def extract_features(url):
 
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+
     parsed = urlparse(url)
     features = {}
 
@@ -32,5 +35,4 @@ def extract_features(url):
     features["entropy"] = round(entropy, 2)
 
     # label
-    
     return features

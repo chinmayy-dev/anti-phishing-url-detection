@@ -43,7 +43,6 @@ chrome.com
 openai.com
 chat.openai.com
 ibm.com
-oracle.com
 intel.com
 amd.com
 nvidia.com
