@@ -1,0 +1,18 @@
+THINGS TO CHECK:
+    URL length
+    Dot count
+    Hyphen count
+    HTTPS check
+    Brand name position
+    Suspicious keywords
+    Uncommon TLD
+    Too many subdomains
+
+
+KEY DEFINITIONS: URL = https://www.netflix.com/login
+    Scheme -> http, https
+    Netloc -> domain + subdomains (www.netflix.com)
+    Domain -> netflix  |  Subdomain -> www  |  TLD = .com
+        Netflix can legally have -> www.netflix.com  |  help.netflix.com  |  login.netflix.com    -> login and help would be subdomains
+    Path -> /login  |  /verify/account
+
