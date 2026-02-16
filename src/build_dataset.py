@@ -8,7 +8,7 @@ def load_urls(filepath):
 phishing_urls = load_urls("data/phishing_urls.txt")
 legit_urls = load_urls("data/legitimate_urls.txt")
 
-with open("data/dataset_schema.csv", "w", newline="") as csvfile:
+with open("data/dataset_schema_v1.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
 
     writer.writerow(

@@ -29,3 +29,18 @@ Strongest signals observed: url_length, entropy
 Moderate signals: dot_count, hyphen_count
 Weak signal: has_https
 Date locked: 15-02-2026
+
+
+--- DATASET LOCK 2 (v1) ---
+
+Total rows: 420
+Feature count: 7 features + 1 label
+Balanced: Yes
+IP-based phishing URLs added: Yes
+Cleab phishing URLs added: Yes
+Normalization applied: Yes (auto scheme handling)
+Outliers removed: None
+Strongest signals observed: url_length, entropy
+Moderate signals: dot_count, hyphen_count
+Weak signal: has_https
+Date locked: 17-02-2026

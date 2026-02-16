@@ -1,0 +1,30 @@
+This week focused on building and validating an end-to-end phishing URL detection pipeline.
+
+Completed:
+
+- Engineered lexical URL features (entropy, dot count, IP detection, keyword count)
+- Constructed a labeled dataset (~400 rows)
+- Implemented train/test split (80/20)
+- Trained Logistic Regression model
+- Evaluated using accuracy, precision, recall
+- Added cross-validation
+- Tested robustness with IP-based phishing examples
+
+Key Observations:
+
+- Phishing URLs tend to be longer and have higher entropy.
+- Dot and hyphen counts contribute meaningfully.
+- Dataset balance is important for fair evaluation.
+
+Improvements Made:
+
+- Normalized URL parsing to handle missing scheme.
+- Cleaned folder structure.
+- Improved variable naming.
+- Added reproducibility using random_state.
+
+Next Steps:
+
+- Interpret feature importance.
+- Compare additional 2-3 models.
+- Write a clean evaluation summary.

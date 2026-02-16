@@ -27,3 +27,6 @@ Metric Deep Dive
 - A false positive (legit marked as phishing) is inconvenient.
 - A false negative (phishing marked as legit) is dangerous.
 - Therefore, high recall is critical.
+
+
+## After introducing more realistic phishing URLs, model accuracy decreased from ~99% to ~94%. Cross-validation results show variation across folds (0.88–0.99), indicating the dataset contains harder samples. This suggests the model is more realistically evaluated and not overfitting to obvious phishing patterns. Precision dropped from 1.00 to 0.9375 and recall dropped from 0.98 to ≈ 0.96 -> This proves that only structural and lexical characteristics to classify a URL into phishing or legitimate is not enough.
