@@ -40,6 +40,13 @@ The system provides human-readable explanations for phishing predictions based o
 3. Open Notebook
    `train_model.ipynb`
 
+## Model Performance
+- Accuracy: 98.75%
+- Precision: 1.0
+- Recall: 0.978
+
+5-fold Cross Validation Accuracy: ~0.98
+
 ## Limitations
 This project uses lexical features only.
 It does not inspect webpage content, domain age, or SSL certificates.

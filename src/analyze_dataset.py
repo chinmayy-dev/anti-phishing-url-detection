@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("data/dataset_schema.csv")
+df = pd.read_csv("data/dataset_schema_v1.csv")
 
 # for shuffling
 # df= df.sample(frac=1, random_state=42).reset_index(drop=True)
