@@ -18,3 +18,12 @@ Model Comparison
 - Recall improved from 0.957 to 0.979, indicating fewer phishing URLs were missed.
 - Precision also improved, reducing false positives.
 - The consistent improvement suggests that the dataset contains non-linear feature interactions that Random Forest captures more effectively.
+
+
+## Overfitting
+
+- Overfitting happens when model performs extremely well on training data but performs very poor on the unseen test data.
+- That means the model memorized patterns instead of learning general rules.
+
+- For our model we have: 
+- Training accuracy (0.97) is slightly higher than test accuracy (0.94), indicating minor overfitting. However, the gap is small, suggesting the model generalizes well.
