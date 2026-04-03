@@ -40,7 +40,6 @@ with open("data/dataset_schema_v1.csv", "w", newline="") as csvfile:
         )
     for url in legit_urls:
         features = extract_features(url)
-        print(features.keys())
 
         writer.writerow(
             [
